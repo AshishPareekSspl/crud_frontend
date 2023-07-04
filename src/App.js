@@ -1,12 +1,16 @@
-
+import React from 'react'
+import {Routes, Route} from 'react-router-dom'
+import Header from './component/Header';
+import CreatePost from './component/CreatePost';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={"qubodup-wheel.svg"} className="App-logo" alt="logo" />
-      </header>
+      <Header />
+      <Routes>
+        <Route path='/' element={<CreatePost />}/>
+      </Routes>
     </div>
   );
 }
