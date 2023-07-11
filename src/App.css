@@ -7,3 +7,43 @@
   padding: 1rem;
   box-shadow: 1px 1px 20px rgb(214, 214, 214);
 }
+.createPostContainer{
+  height: 95vh;
+  background-image:linear-gradient(to bottom right, rgb(83, 83, 255) ,rgb(200, 200, 200) ,rgb(255, 205, 205));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.createPost{
+  height: 50%;
+  width: 30%;
+  box-shadow: inset 1px 0 10px rgb(188, 188, 188);
+  padding:2rem ;
+  background-color: aliceblue;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+}
+.postDataForm{
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.postDataForm input{
+  padding: 12px;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+.postDataForm button{
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 2rem;
+  border: none;
+  background: rgb(215, 201, 201);
+}
+.postDataForm button:hover{
+  background: rgb(192, 192, 212);
+}
