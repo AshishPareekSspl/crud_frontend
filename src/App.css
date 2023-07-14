@@ -9,7 +9,7 @@ body{
   height: 3rem;
   display: flex;
   align-items: center;
-  box-shadow: inset 1px 1px 10px rgb(214, 214, 214);
+  box-shadow: inset 1px 0 10px rgb(188, 188, 188); 
   background-color: aliceblue;
 }
 .createPostContainer{
@@ -85,6 +85,6 @@ i{
   cursor: pointer;
 }
 thead{
-  background-image:linear-gradient(to bottom right, rgb(83, 83, 255) ,rgb(200, 200, 200) ,rgb(255, 205, 205));
+  background-image:linear-gradient(to bottom right, rgb(83, 83, 255),rgb(200, 200, 200),rgb(255, 205, 205));
   height: 4rem;
 }

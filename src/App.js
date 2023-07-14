@@ -25,8 +25,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Home allPosts={data} />}/>
         <Route path='/create-post' element={<CreatePost />}/>
+        <Route path='/edit-post/:id' element={<CreatePost />}/>
         <Route path='/post:id' element={<Post />}/>
-        <Route path='/show-table' element={<ShowTable allPosts={data} />}/>
+        <Route path='/show-table' element={<ShowTable/>}/>
       </Routes>
     </div>
   );
